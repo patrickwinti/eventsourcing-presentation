@@ -11,10 +11,10 @@ public class ReservationCancelledEvent extends Event {
     private final UUID reservationId;
 
     public String toString() {
-        return "ReservationCancelledEvent={" +
-                "id=" + id +
-                ", created=" + created +
-                ", reservationId=" + reservationId +
-                "}}";
+        return "\nReservationCancelledEvent={" +
+                "\n    id = " + id +
+                ",\n    created = " + created +
+                ",\n    reservationId = " + reservationId +
+                "\n}";
     }
 }

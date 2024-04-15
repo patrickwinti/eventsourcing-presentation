@@ -10,10 +10,11 @@ public class ReservationCreatedEvent extends Event {
     private final Reservation reservation;
 
     public String toString() {
-        return "ReservationCreatedEvent={" +
-                "id=" + id +
-                ", created=" + created +
-                ", reservation=" + reservation +
-                "}}";
+        return "\nReservationCreatedEvent = {" +
+                "\n    id = " + id +
+                ",\n    created = " + created +
+                ",\n    reservation = "
+                + reservation +
+                "\n}";
     }
 }

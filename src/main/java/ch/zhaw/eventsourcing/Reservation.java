@@ -14,11 +14,10 @@ public class Reservation {
     private final int numberOfTickets;
 
     public String toString() {
-        return "Reservation{" +
-                "reservationId=" + reservationId +
-                ", customerName='" + customerName + '\'' +
-                ", showId='" + showId + '\'' +
-                ", numberOfTickets=" + numberOfTickets +
-                '}';
+        return "{\n        reservationId = " + reservationId +
+                ",\n        customerName = '" + customerName + '\'' +
+                ",\n        showId = '" + showId + '\'' +
+                ",\n        numberOfTickets = " + numberOfTickets +
+                "\n    }";
     }
 }
